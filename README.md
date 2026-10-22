@@ -2,6 +2,9 @@
 
 Go module for decoding [TOML 1.0.0](https://toml.io/en/v1.0.0) documents.
 
+Development and verification use Go 1.27.3. The module's minimum Go version
+remains 1.26.3; `go.mod` selects the development toolchain separately.
+
 ## Module
 
 ```text
